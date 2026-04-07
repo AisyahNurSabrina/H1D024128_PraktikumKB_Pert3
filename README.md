@@ -15,7 +15,6 @@ pip install numpy scikit-fuzzy matplotlib
 Program ini menggunakan logika fuzzy untuk menentukan jumlah stok makanan yang direkomendasikan berdasarkan data penjualan.
 
 ### Variabel Input
-|----------------|---------------|------------------------|
 | Variabel       | Rentang       | Himpunan Fuzzy         |
 |----------------|---------------|------------------------|
 | Barang Terjual | 0 - 100       | Rendah, Sedang, Tinggi |
