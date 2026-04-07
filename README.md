@@ -21,14 +21,11 @@ Program ini menggunakan logika fuzzy untuk menentukan jumlah stok makanan yang d
 | Permintaan     | 0 - 300       | Rendah, Sedang, Tinggi |
 | Harga per Item | 0 - 100.000   | Murah, Sedang, Mahal   |
 | Profit         | 0 - 4.000.000 | Rendah, Sedang, Banyak |
-|----------------|---------------|------------------------|
 
 ### Variabel Output
-|--------------|----------|----------------|
 | Variabel     | Rentang  | Himpunan Fuzzy |
 |--------------|----------|----------------|
 | Stok Makanan | 0 - 1000 | Sedang, Banyak |
-|--------------|----------|----------------|
 
 ### Jumlah Aturan
 6 aturan fuzzy (IF-THEN)
@@ -49,14 +46,12 @@ python stok_makanan.py
 Program ini menggunakan logika fuzzy untuk mengevaluasi tingkat kepuasan pelayanan berdasarkan empat aspek penilaian.
 
 ### Variabel Input
-|-----------------------|---------|---------------------------------------------|
 | Variabel              | Rentang | Himpunan Fuzzy                              |
 |-----------------------|---------|---------------------------------------------|
 | Kejelasan Informasi   | 0 - 100 | Tidak Memuaskan, Cukup Memuaskan, Memuaskan |
 | Kejelasan Persyaratan | 0 - 100 | Tidak Memuaskan, Cukup Memuaskan, Memuaskan |
 | Kemampuan Petugas     | 0 - 100 | Tidak Memuaskan, Cukup Memuaskan, Memuaskan |
 | Ketersediaan Sarpras  | 0 - 100 | Tidak Memuaskan, Cukup Memuaskan, Memuaskan |
-|-----------------------|---------|---------------------------------------------|
 
 ### Variabel Output
 | Variabel           | Rentang | Himpunan Fuzzy                                                                  |
